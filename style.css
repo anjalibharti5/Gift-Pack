@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: orange;
+}
+
+.hero{
+    width: 100%;
+}
+.row{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 45%;
+}
+
+.slider{
+    height: 60vh;
+    display: flex;
+}
+
+.product img{
+    height: 14vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover{
+    opacity: 1;
+}
+
+.preview img{
+    height: 100%;
+}
+
+.Line-1 {
+    height: 1px;
+    background: rgb(151, 146, 146);
+}
+
+.rating{
+    display: flex;
+    height: 15px;
+}
+.rating .fa{
+    color: #ff8800;
+}
+
+.prod-name {
+    font-size: 30px;
+    font-weight: 400;
+    color: #222;
+    font-family: Montserrat-Light;
+    line-height: 1.4;
+}
+
+.prod-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ba4350;
+    font-family: Montserrat-Medium;
+}
+
+.prod-price-color{
+    font-size: 20px;
+    font-weight: 600;
+    color: #141010fd;
+    font-family: Montserrat-Medium; 
+}
+
+.pdp-sub-header {
+    font-size: 25px;
+    font-weight: 600;
+    color: #4f4f4f;
+    font-family: Montserrat-Medium;
+    letter-spacing: .3px;
+    padding-right: 12px;
+}
+
+.Line-2 {
+    height: 1px;
+    background: rgb(151, 146, 146);
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #00bda6;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Line-3 {
+    height: 1px;
+    background: rgb(151, 146, 146);
+}
+
+
+button .fa{
+    margin-right: 10px;
+}
+
+.Similar{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+.Similar .row{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.925);
+    margin-bottom: 20px;
+}
+
+.Line-4 {
+    height: 1px;
+    background: rgb(151, 146, 146);
+}
+
+.columns{
+    flex-basis: 22%;
+    height: 100%;
+}
+
+.items img{
+    width: 100%;
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.details .rating{
+    margin: 10px 0;
+}
+
+
+
+
